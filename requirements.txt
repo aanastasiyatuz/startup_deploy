@@ -1,6 +1,5 @@
 Django==3.1
 Pillow==8.0
-psycopg2-binary==2.8.5
 djangorestframework==3.11
 python-decouple
 drf-yasg
@@ -10,3 +9,4 @@ lxml
 gunicorn
 dj-database-url
 whitenoise
+django-heroku
