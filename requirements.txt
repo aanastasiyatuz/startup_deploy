@@ -4,8 +4,9 @@ psycopg2-binary==2.8.5
 djangorestframework==3.11
 python-decouple
 drf-yasg
-folium
-leaflet
 BeautifulSoup4
 requests
 lxml
+gunicorn
+dj-database-url
+whitenoise
