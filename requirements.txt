@@ -10,4 +10,3 @@ lxml
 gunicorn
 dj-database-url
 whitenoise
-locallibrary
