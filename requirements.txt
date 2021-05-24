@@ -8,4 +8,4 @@ folium
 leaflet
 BeautifulSoup4
 requests
-lxml8
+lxml

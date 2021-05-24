@@ -189,7 +189,7 @@ class PlaceToEatImageSerializer(serializers.ModelSerializer):
 class PlaceToStaySerializer(serializers.ModelSerializer):
     class Meta:
         model = PlaceToStay
-        fields = '__all__
+        fields = '__all__'
 
 
 class CommentToStaySerializer(serializers.ModelSerializer):
