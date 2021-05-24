@@ -13,7 +13,10 @@ import os
 from pathlib import Path
 from decouple import config
 import dj_database_url
+import django_heroku
 
+# Activate Django-Heroku.
+django_heroku.settings(locals())
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
@@ -28,7 +31,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ['.herokuapp.com'] 
+ALLOWED_HOSTS = ['https://travel-startup.herokuapp.com/'] 
 
 # Application definition
 
